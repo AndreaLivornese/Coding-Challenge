@@ -1,0 +1,98 @@
+/*immagine di sfondo*/
+body{
+    background-image: url("background.jpg");
+    background-size:cover;
+}
+
+*{
+    box-sizing: border-box;
+    margin:0px;
+}
+
+/*box trasparente*/
+#box{
+    width: 60%;
+    margin:auto;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 20px;
+    margin-top: 1%;
+}
+
+/* modifiche logo nell'intestazione*/
+header > img{
+    padding-top: 20px;
+    width: 25%;
+    height: 25%;
+}
+/*testo centrato sia per l'intestazione sia per la navigazione*/
+header,nav{
+    text-align: center;
+}
+
+/*titolo nell'intestazione*/
+header > h1{
+    color: lime;
+}
+
+
+main, nav{
+    width: 70%;
+    margin: auto;
+}
+
+nav{
+    background-color: green;
+    padding-top: 10px;
+    padding-bottom:10px;
+    border-radius: 10px;
+}
+
+section  h2, section div{
+    color: white;
+}
+
+.possesso:before{
+    content: "\25A1" " Monopattino ";
+}
+
+/*spazio tra le varie section*/
+main section{
+   margin-bottom:20px;
+}
+
+/*inserisce il testo sopra la figura della battria*/
+.carica:before{
+    content: "Stato carica:";
+}
+
+
+/*figura della batteria scarica*/
+.low_battery{
+    width: 10%;
+    height: 20px;
+    background-color: red;
+    border-radius: 10px;
+    
+}
+
+/*figura della batteria a carica media*/
+.mid_battery{
+    width: 30%;
+    height: 20px;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+/*figura della batteria a carica alta*/
+.high_battery{ 
+    width: 60%;
+    height: 20px;
+    background-color: green;
+    border-radius: 10px;
+}
+
+#box > div{
+    padding-top:9%;
+    padding-bottom:9%;
+}
+
